@@ -285,7 +285,7 @@ ul {
 }
 
 .wrap-team {
-  margin: 30px 32px 24px 32px;
+  padding: 30px 32px 24px 32px;
 }
 
 .title-name {
@@ -321,7 +321,7 @@ ul {
 }
 
 .link-logo-company {
-  border: solid #afb1b8;
+  border: 1px solid #afb1b8;
   border-radius: 4px;
   width: 170px;
   height: 90px;
@@ -447,6 +447,7 @@ ul {
 }
 
 .filter {
+  padding: 6px 22px;
   color: var(--main-text-color);
   background-color: #f5f4fa;
   font-weight: 500;
@@ -457,26 +458,22 @@ ul {
   border-color: transparent;
 }
 
-.list-projects {
+.portfolio-content {
+  padding: 15px 0;
+}
+
+.list-portfolio {
   display: flex;
   flex-wrap: wrap;
   margin: -15px;
 }
 
-.item-projects {
+.item-portfolio {
   margin: 15px;
-  max-width: 370px;
+  width: 370px;
 }
 
-.item-projects:nth-child(3n) {
-  margin-right: 0;
-}
-
-.item-projects:nth-last-child(-n + 3) {
-  margin-bottom: 0;
-}
-
-.img-projects {
+.img-portfolio {
   display: block;
   max-width: 100%;
   height: auto;
@@ -484,12 +481,12 @@ ul {
   border-top-right-radius: 5px;
 }
 
-.projects-link {
+.portfolio-link {
   display: block;
   text-decoration: none;
 }
 
-.projects-name {
+.portfolio-name {
   margin-top: 0;
   margin-bottom: 4px;
   color: var(--main-text-color);
@@ -499,7 +496,7 @@ ul {
   letter-spacing: 0.06em;
 }
 
-.projects-view {
+.portfolio-view {
   margin-top: 0;
   margin-bottom: 0;
   color: #757575;
@@ -507,7 +504,7 @@ ul {
   line-height: 1.8;
 }
 
-.projects-text {
+.portfolio-text {
   color: var(--white-text-color);
   font-size: 18px;
   line-height: 1.5;
@@ -521,16 +518,4 @@ ul {
   padding: 20px 24px;
   border-bottom-right-radius: 5px;
   border-bottom-left-radius: 5px;
-}
-
-.developers {
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
-  padding-top: 18px;
-  padding-bottom: 21px;
-  margin-top: 0;
-  margin-bottom: 0;
-  color: rgba(255, 255, 255, 0.4);
-  font-size: 12px;
-  line-height: 2;
-  text-align: center;
 }
